@@ -1,1 +1,98 @@
 
+
+
+body {
+    margin-left:                     40%;
+    margin-right:                    10%;
+    font-family:              sans-serif;
+    margin-top:                       5%;
+    
+}
+
+.img-circle {
+    display:                       block;
+    margin-left:                    auto;
+    margin-right:                   auto;
+    width:                          auto;
+    border-radius:                   50%;
+}
+
+h1 {
+    font-size:                      250%;
+    letter-spacing:              -.05rem;
+    font-weight:                    1000;
+    text-align: center;
+}
+
+h2 {
+    font-weight:                     900;
+    font-size:                      150%;
+    letter-spacing:              -.05rem;
+    border-style:  thick solid #eeeeee;
+    border-bottom: thick solid #eeeeee;
+    padding-bottom:                0.8em;
+    padding-top:                   0.8em;
+    border-top:    thick solid #eeeeee;
+    color:     rgba(95, 92, 92, 0.933);
+}
+
+.emph {
+    color:                       #e67e;
+    font-style:                   italic;
+}
+
+.css {
+    font-weight:                    bold;
+}
+
+#master {
+    color:      rgb(95, 92, 92, 0.933);
+}
+
+.flex {
+    display:                        flex;
+}
+
+#droite {
+    position:                        fixed;    
+    left:                               5%;
+    top:                                5%;
+}
+
+#gauche {
+    margin-left:                       40%;
+}
+
+#block {
+    border-style:                    solid;
+    padding-left:                     10px;
+    padding-top:                      10px;
+    padding-bottom:                   10px;
+}
+
+.menu {
+    position:                        fixed;
+    text-align:                     center;
+    display:                          flex;
+    top:                               5px;
+    width:                            auto;
+}
+
+#nav {
+	display:flex;
+    width:75%;
+    background-color: rgb(255, 255, 255);
+}
+
+.button {
+    background-color: lightcoral;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    
+
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(180, 62, 62);
+}
