@@ -1,1 +1,111 @@
 
+<!DOCTYPE html>
+<htlm lang="fr">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Exam CV HTML" />
+        <meta name="keywords" content="exam, CV, Web" />
+        <meta name="author" content="Valentine Lesourd-Aubert" />
+        <title>Curriculum Vitae</title>
+        <link rel="stylesheet" href="CV_exam.css"/>
+    </head>
+    <header>
+    <div class="menu">
+            
+            <table id="nav">
+                <td><a class="link" href="#inf">  <strong>  <i> Informations personnelles </i></strong></a> </td>
+                <td><a class="link" href="#parc"> <strong> <i> Parcours académique </strong> </i></a></td>
+                <td><a class="link" href="#exp"> <strong> <i> Expériences professionnelles </i></strong> </a></td>
+                <td><a class="link" href="#comp"> <strong> <i> Competences informatiques</i> </strong> </a></td>
+                <td><a class="link" href="#lang"> <i><strong> Langues </i></strong> </a></td>
+                <td><a class="link" href="#autr"> <i><strong> Autres activités</i> <strong> </a></td>
+                </table>
+        </div>
+    </header>
+    <body>
+            <a id="haut"></a>
+            <div class="flex">
+            <div id="droite">
+                <img class="img-circle" src="me.png" width="200" height="250" border="2" alt="Photo de profil"/>
+                <h1>Valentine Lesourd-Aubert</h1>
+                <div id=block>
+                    <p>21 ans</p>
+                    <p>08/08/1998</p>
+                    <p>30, rue de Doumerc 33000 Bordeaux</p>
+                    <input class="button" type="button" value="contactez-moi" onclick="window.location.href='mailto:valentine.lesourd@orange.fr'">
+                </div>
+            </div>
+            <div class="gauche">
+                <h2><span id="master">Informations personnelles</span></h2>
+                <a name="inf"></a>
+                <div>
+                        <table>
+                            <td>
+                    <p>Récemment arrivée à Bordeaux pour débuter un master en <span class=emph>bio-informatiques</span>, j'ai d'abord acquis de solides connaissances en biologie à Clermont-Ferrand.</p>
+                            </td>
+                        </table>
+                <div>
+                    <h2>Parcours académique</h2>
+                    <a name="parc"></a>
+                    <p><span class=css>2008-2010</span> Licence de Biologie parcours BOPE à Clermont-Ferrand</p>
+                    <p><span class=css>2010-2012</span> <a href="https://master-bioinfo-bordeaux.github.io">Master bio-informatique de Bordeaux</a></p>
+                </div>
+                <div>
+                    <h2>Expériences professionnelles</h2>
+                    <a name="exp"></a>
+                    <p><span class=css>Juin 2015 </span>- Stage en infirmierie militaire</p>
+                    <p><span class=css>Août 2016 - Décembre 2016 </span>- Caissière à Carrefour</p>
+                    <p><span class=css>Janvier 2017 - </span> Employée polyvalente à LIDL</p>
+                    <p><span class=css>Avril 2019 - </span> Stage à l'INRA de Clermont-Fd</p>
+                </div>
+                <div>
+                    <h2>Compétences informatiques</h2>
+                    <a name="comp"></a>
+                        <div>
+                            <table>
+                                <td>
+                            <h3>Langages</h3>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Javascript</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                </ul>
+                                </td>
+                                <td>
+                            <h3>Logiciels</h3>
+                                <ul>
+                                    <li>ImagJ</li>
+                                    <li>R</li>
+                                    <li>Pack Office</li>
+                                    <li>CSS</li>
+                                </ul>
+                                </td>
+                            </table>
+                        </div>
+                </div>
+            </div>
+            <div>
+                <h2>Langues</h2>
+                <a name="lang"></a>
+                    <p><img src="fran.jpg" width="25" alt="Drapeau français"/>
+                    Français (langue maternelle)</p>
+                    <p><img src="angl.jpg" width="27" alt="Drapeau anglais"/>
+                    Anglais (B2)</p>
+                    <p><img src="ita.jpg" width="25" alt="Drapeau italien"/>
+                    Italien (B1)</p>
+                </div>
+                <div>
+                    <h2>Autres activités (bénévolat, hobbies, sports...)</h2>
+                    <a name="autr"></a>
+                    <p>Vie associative active :</p>
+                    <ul>
+                        <li>2018/2019 - Membre de l'Association des Naturalistes d'Auvergne (ADNA)</li>
+                        <li>2019 - VP Event de l'Association du Master de Bio-informatique de Bordeaux (AMBB)</li>
+                    </ul>
+                </div>
+            </div>
+            </body>
+        
+        </html>
